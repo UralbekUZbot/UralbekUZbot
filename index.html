@@ -1,44 +1,208 @@
 <!--v1.22.17 (240311). © Uralbek Tursunov. 10-Mart 2024-->
 
+
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-<title>UralbekUZbot</title>
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<title>Codeflash - Web IDE</title>
 <style>
-html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
-html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html {
+  height:100%;
+}
+
+body{
+  display: flex;
+  flex-direction:column;
+  height:100%;
+}
+
+.idetopleft{
+  flex:1;
+  padding:10px;
+  color:#E0E0E0;
+}
+
+.idetopright{
+  padding:10px;
+}
+
+.idetopright:active{
+  transform: scale(0.9);
+}
+
+.idetopright button{
+  background-color:#00897B;
+  padding:7px 15px 7px 15px;
+  border:1px solid #E0E0E0;
+  border-radius:5px;
+  color:#E0E0E0;
+}
+
+.idetopmain{
+  display:flex;
+  align-items:center;
+  background-color:#00897B;
+}
+
+.codes{
+  width:100%;
+  height:100%;
+  overflow:scroll;
+  flex-grow:1;
+  border:none;
+  background-color:#ECE5DD;
+  font-size:14px;
+  padding:10px;
+  outline:none;
+}
+
+.bottomdiv{
+  width:100%;
+  display:flex;
+  justify-content:center;
+}
+
+.bottombtns{
+  width:20%;
+  padding:13px 0px 13px 0px;
+  border:none;
+  background-color:#00897B;
+  font-size:17px;
+  color:#E0E0E0;
+}
+      
+#back{
+  position:fixed;
+  background-color:#00897B;
+  opacity:0.8;
+  height:47px;
+  width:100%;
+  text-align:center;
+  bottom:0;
+  color:white;
+  left:0;
+  display:none;
+}
+        
+#frame{
+  width:100%;
+  height:100%;
+  background-color:white;
+  top:0;
+  left:0;
+  position:fixed;
+  border:none;
+  display:none;
+}
+
 </style>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
 
-<div class="w3-top">
-<div class="header">
-    <img src="logo.png" alt="logo" width="19%"/></div>
-<marquee class="w3-medium">Ushbu sayt test rejimida ishlamoqda...</marquee>
+<div class="idetopmain">
+  <div class="idetopleft">
+    <h3>Codeflash App</h3>
+  </div>
+  
+  <div class="idetopright">
+    <button onclick="outputclick()">Output</button>
+  </div>
 </div>
 
+<textarea class="codes" id="codeid" id="run" autofocus>
+<style>
+h1{
+  color:#ef6c00;
+}
+</style>
+
+<h1>Hello Word</h1>
+<p>Hi, I’m p tag</p>
+</textarea>
+
+<div class="bottomdiv" >
+  <button class="bottombtns" onclick="bottombtnsclick()"><</button>
+  <button class="bottombtns" onclick="bottombtnsclick2()">&#60;/</button>
+  <button class="bottombtns" onclick="bottombtnsclick3()">></button>
+  <button class="bottombtns" onclick="bottombtnsclick4()">"</button>
+  <button class="bottombtns" onclick="bottombtnsclick5()">=</button>
+</div>
+
+<iframe id="frame"></iframe>
+<div onclick="stop()" id="back">
+  <p style="margin-top:4%;">Close</p>
+</div>
+
+<script>
+
+function outputclick()
+{
+  var frame = document.getElementById("frame");
+  var code = document.getElementById("codeid").value;
+  var back = document.getElementById("back");
+  frame.style.display="block";
+  back.style.display="block";
+  frame = (frame.contentWindow)?frame.contentWindow:(frame.contentDocument)?frame.contentDocument.document:frame.contentDocument ;
+  frame.document.open();
+  frame.document.write(code);
+  frame.document.close();
+}
+
+function stop()
+{
+  document.getElementById("frame").style.display="none";
+  document.getElementById("back").style.display ="none";
+}
+
+function bottombtnsclick()
+{
+  var textArea = document.getElementById("codeid");
+  const idx = textArea.selectionStart;
+  textArea.setRangeText("<", idx, idx);
+  document.getElementById('codeid').focus();
+}
+
+function bottombtnsclick2()
+{
+  var textArea = document.getElementById("codeid");
+  const idx = textArea.selectionStart;
+  textArea.setRangeText("</", idx, idx);
+  document.getElementById('codeid').focus();
+}
+
+function bottombtnsclick3()
+{
+  var textArea = document.getElementById("codeid");
+  const idx = textArea.selectionStart;
+  textArea.setRangeText(">", idx, idx);
+  document.getElementById('codeid').focus();
+}
+
+function bottombtnsclick4()
+{
+  var textArea = document.getElementById("codeid");
+  const idx = textArea.selectionStart;
+  textArea.setRangeText('"', idx, idx);
+  document.getElementById('codeid').focus();
+}
+
+function bottombtnsclick5()
+{
+  var textArea = document.getElementById("codeid");
+  const idx = textArea.selectionStart;
+  textArea.setRangeText("=", idx, idx);
+  document.getElementById('codeid').focus();
+}
+
+</script>
 </body>
 </html>
 
-<style>
-    .header {
-        padding: 13px;
-        width: 100%;
-        height: 46px;
-        background-color: #2196F3;
-        color: red;
-    }
-</style>
+
