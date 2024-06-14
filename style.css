@@ -10,4 +10,7 @@ body{margin:0;background-color:#fff;color:#000}
     font-size: 24px;
     
 }
-.menyu.logotip
+.menyu.logotip {
+    color: ;
+    font-weight: bold;
+}
