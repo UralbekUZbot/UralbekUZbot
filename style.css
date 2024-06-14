@@ -30,5 +30,7 @@ div.scollmenu {
 }
 div.scollmenu a {
     display: inline-block;
-    color: ;
+    color: #fff;
+    text-align: center;
+    padding: 2;
 }
