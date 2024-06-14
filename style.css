@@ -63,4 +63,4 @@ div.scollmenu a:hover {
 .dropdown-content a:hover {
     background-color: #ddd;
 }
-.d
+.dropdown:hover .dropdown-content
