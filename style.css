@@ -31,6 +31,7 @@ div.scollmenu {
 div.scollmenu a {
     display: inline-block;
     color: #fff;
+    font-size: 8px;
     text-align: center;
     padding: 2px 14px;
     text-decoration: none;
