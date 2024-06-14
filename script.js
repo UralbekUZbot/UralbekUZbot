@@ -15,3 +15,8 @@ function checkTime(i) {
   if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
   return i;
 }
+
+// Menyu
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
