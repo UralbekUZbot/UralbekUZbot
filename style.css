@@ -64,4 +64,7 @@ div.scollmenu a:hover {
 .sidepanel a:hover {
     color: #f1f1f1;
 }
-.sidepanel .closebtn 
+.sidepanel .closebtn {
+    position: absolute;
+    t
+}
