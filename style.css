@@ -53,5 +53,8 @@ div.scollmenu a:hover {
     background-color: #ddd;
     overflow-x: hidden;
     padding-top: 60px;
-    transition: 0.5;
+    transition: 0.5s;
+}
+.sidepanel a {
+    padding: 8px 8px 8;
 }
