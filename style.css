@@ -44,5 +44,7 @@ div.scollmenu a:hover {
 
 /* Menyu */
 .sidepanel {
+    width: 0;
+    height: 250px;
     
 }
