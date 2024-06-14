@@ -3,5 +3,6 @@ function startTime() {
     const today = new Date();
     let h = today.getHours();
     let m = today.getMinutes();
-    let s = today.getSeconds()
+    let s = today.getSeconds();
+    h 
 }
