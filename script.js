@@ -1,1 +1,1 @@
-// Uralbek Tursunov | Script | @UralbekUZbot | v1.
+// Uralbek Tursunov | Script | @UralbekUZbot | v1.0.0 (14.06.2024)
