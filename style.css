@@ -25,5 +25,7 @@ a.menyu {
 /* Scollmenu */
 div.scollmenu {
     background-color: #777;
-    
+    overflow: auto;
+    white-space: nowrap;
 }
+div.Scollmenu
