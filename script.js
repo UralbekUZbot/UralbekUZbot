@@ -1,6 +1,7 @@
 // Uralbek Tursunov | Script | @UralbekUZbot | v1.0.0 (14.06.2024)
 function myFunction () {
-    var element 
+    var element = document.body;
+    
 }
 
 
