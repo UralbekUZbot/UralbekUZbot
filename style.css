@@ -24,6 +24,7 @@ a.menyu {
     padding-top: 4px;
 }
 /* Dark mode */
+body{background-color:white;color:black}
 .tungi-rejim{background-color:#1d2733}
 .right{float:right!important}
 .dark-top{margin-top:8px}
