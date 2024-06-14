@@ -28,4 +28,7 @@ div.scollmenu {
     overflow: auto;
     white-space: nowrap;
 }
-div.Scollmenu
+div.scollmenu a {
+    display: inline-block;
+    color: ;
+}
