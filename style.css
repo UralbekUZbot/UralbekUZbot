@@ -2,7 +2,8 @@
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 body{
-    background-color: ;
+    background-color: #fff;
+    margin: 0;
 }
 /* Muallif: Uralbek Tursunov */
 a.menyu {
