@@ -67,3 +67,6 @@ div.scollmenu a:hover {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+.show {
+    display: block;
+}
