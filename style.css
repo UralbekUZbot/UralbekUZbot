@@ -41,32 +41,3 @@ div.scollmenu a {
 div.scollmenu a:hover {
     background-color: #aaa;
 }
-/* Menyu */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-.dropdown-content a {
-    padding: 2px 14px;
-    color: #000;
-    text-decoration: none;
-    display: block;
-}
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-.show {
-    display: block;
-}
