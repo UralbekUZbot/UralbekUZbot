@@ -22,7 +22,12 @@ a.menyu {
 .w3-container {
     padding-top: 4px;
 }
-/* Dark mode */
+
+/* Tungi rejim
+
+
+
+/* Dark mode 
 body{background-color:white;color:black}
 .tungi-rejim{background-color:#1d2733}
 .right{float:right!important}
@@ -77,4 +82,4 @@ input:checked + .slider:before {
 }
 .slider.round:before {
   border-radius: 50%;
-}
+} */
