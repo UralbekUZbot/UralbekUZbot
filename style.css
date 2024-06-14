@@ -2,6 +2,9 @@
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 /* Muallif: Uralbek Tursunov */
+div.w3-top {
+    padd
+}
 a.menyu {
     text-decoration: none;
     font-size: 25px;
