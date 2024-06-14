@@ -4,5 +4,7 @@ function startTime() {
     let h = today.getHours();
     let m = today.getMinutes();
     let s = today.getSeconds();
-    h 
+    
+    m = checkTime(m);
+    s = checkTime(s);
 }
