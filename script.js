@@ -8,5 +8,5 @@ function startTime() {
     m = checkTime(m);
     s = checkTime(s);
     
-    document.getElementById('soat').innerHTML 
+    document.getElementById('soat').innerHTML = h + ":" + m + "+"
 }
