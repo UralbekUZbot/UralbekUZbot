@@ -9,5 +9,5 @@ function startTime() {
     s = checkTime(s);
     
     document.getElementById('soat').innerHTML = h + ":" + m + ":" + s;
-    
+    setTimeout()
 }
