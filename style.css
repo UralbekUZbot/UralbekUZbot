@@ -38,7 +38,7 @@ div.scollmenu a {
     padding: 2px 14px;
     text-decoration: none;
 }
-div.scollmenu a:hower {
+div.scollmenu a:hover {
     background-color: #aaa;
 }
 /* Menyu */
@@ -60,4 +60,4 @@ div.scollmenu a:hower {
     text-decoration: none;
     display: block;
 }
-dropdown-content
+.dropdown-content a:hover {
