@@ -52,5 +52,6 @@ div.scollmenu a:hover {
     left: 0;
     background-color: #ddd;
     overflow-x: hidden;
-    
+    padding-top: 60px;
+    transition: 0.5;
 }
