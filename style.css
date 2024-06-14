@@ -71,5 +71,6 @@ div.scollmenu a:hover {
     margin-left: 50px;
 }
 .openbtn {
-    cursor: ;
+    cursor: pointer;
+    background-color: #111;
 }
