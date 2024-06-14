@@ -46,4 +46,7 @@ div.scollmenu a:hower {
     position: relative;
     display: inline-block;
 }
-.dropdown-content 
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
