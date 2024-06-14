@@ -4,9 +4,9 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 body{margin:0;background-color:#fff;color:#000}
 /* Muallif: Uralbek Tursunov */
 .menyu {
-    
+    font-size: 24px;
 }
 .logotip {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: bold;
 }
