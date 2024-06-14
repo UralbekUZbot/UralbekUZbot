@@ -73,4 +73,5 @@ div.scollmenu a:hover {
 .openbtn {
     cursor: pointer;
     background-color: #111;
+    padding: 18px 15p;
 }
