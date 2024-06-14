@@ -55,6 +55,7 @@ div.scollmenu a:hower {
     z-index: 1;
 }
 .dropdown-content a {
+    padding: 12px ;
     color: #000;
     
 }
