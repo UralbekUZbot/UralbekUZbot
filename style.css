@@ -3,7 +3,8 @@ html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 body{margin:0;background-color:#fff;color:#000}
 /* Muallif: Uralbek Tursunov */
-.menyu {
+a.menyu {
+    text-decoration: none;
     font-size: 23px;
 }
 .logotip {
