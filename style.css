@@ -66,5 +66,6 @@ div.scollmenu a:hover {
 }
 .sidepanel .closebtn {
     position: absolute;
-    t
+    top: 0;
+    right: 25px;
 }
