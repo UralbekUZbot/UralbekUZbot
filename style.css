@@ -49,4 +49,6 @@ div.scollmenu a:hower {
 .dropdown-content {
     display: none;
     position: absolute;
+    background-color: #fff;
+    min-width: 160;
 }
