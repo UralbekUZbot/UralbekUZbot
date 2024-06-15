@@ -1,6 +1,6 @@
 var data=[
     {
         coutry:"NEW YORK",
-        timeZone:"Americ"
+        timeZone:"America/New_York",
     }
 ]
