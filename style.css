@@ -24,6 +24,9 @@ a.menyu {
     padding-top: 7px;
     padding-bottom: 3px;
 }
+.footer-color {
+    background-color: #28;
+}
 /* Scollmenu */
 div.scollmenu {
     background-color: #555;
