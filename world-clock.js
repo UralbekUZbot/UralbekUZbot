@@ -1,4 +1,4 @@
-
+// Uralbek Tursunov | @UralbekUZbot
 var data=[
     {
         coutry:"NEW YORK",
