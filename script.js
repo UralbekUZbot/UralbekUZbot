@@ -16,9 +16,11 @@ function checkTime(i) {
   return i;
 }
 
-function openNav() {
-  document.getElementById("mySidepanel").style.width = "250px";
-}
-function closeNav() {
-  document.getElementById("mySidepanel").style.width = "0";
+function myFunction() {
+  var x = document.getElementById("Demo");
+  if (x.className.indexOf("w3-show") == -1) { 
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
 }
