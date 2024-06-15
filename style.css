@@ -16,7 +16,7 @@ a.menyu {
     font-weight: 700;
     font-style: normal;
 }
-.menyu,.logotip {
+.menyu,.logotip,.blue {
     color: #0095B6;
     font-weight: bold;
 }
@@ -40,9 +40,6 @@ b.Versiya {
 }
 .xlarge {
     font-size: 32px;
-}
-.blue {
-    background-color: ;
 }
 /* Scollmenu */
 div.scollmenu {
