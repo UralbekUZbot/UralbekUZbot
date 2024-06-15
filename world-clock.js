@@ -10,4 +10,4 @@ var data=[
     }
 ]
 
-option={
+option={day:"2-di"
