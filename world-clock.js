@@ -10,4 +10,4 @@ var data=[
     }
 ]
 
-option={day:"2-digit",month:"short",year:"numeric",
+option={day:"2-digit",month:"short",year:"numeric",hour12:false,
