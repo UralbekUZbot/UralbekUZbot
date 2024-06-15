@@ -10,4 +10,4 @@ var data=[
     }
 ]
 
-option={day:"2-di"
+option={day:"2-digit",month:
