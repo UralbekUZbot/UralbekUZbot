@@ -25,4 +25,6 @@ function w3_close() {
 }
 
 // Xalqaro Soat
-var dat
+var data=[
+    
+    ]
