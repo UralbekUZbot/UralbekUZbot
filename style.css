@@ -46,11 +46,7 @@ b.Versiya {
     font-family: Sans-Serif;
     font-size: 32px;
 }
-.col-sm-4 {
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
-
+.col-sm-4{padding-top:8px;padding-bottom:8px}
 .oldingi{float:left!important}
 .keyingi {float:right!important}
 .oldingi,.keyingi{padding:4px 18px;}
