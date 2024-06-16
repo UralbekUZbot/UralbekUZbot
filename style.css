@@ -45,9 +45,10 @@ b.Versiya {
     background-color: #0095B6;
     color: #fff;
 }
-.text-blue {
+.mavzu {
     color: #0095B6;
     font-family: Sans-Serif;
+    font-size: 32px;
 }
 /* Scollmenu */
 div.scollmenu {
