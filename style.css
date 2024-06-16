@@ -45,6 +45,9 @@ b.Versiya {
     background-color: #0095B6;
     color: #fff;
 }
+.text-blue {
+    color: #0095B6;
+}
 /* Scollmenu */
 div.scollmenu {
     background-color: #555;
