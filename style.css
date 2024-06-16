@@ -36,7 +36,7 @@ b.Versiya {
 .col-sm-4,.bulim{padding-top:8px;padding-bottom:8px}
 .oldingi{float:left!important}
 .keyingi{float:right!important}
-a.oldingi,.keyingi{text-decoration:none;padding:4px 18px}
+a.oldingi,.keyingi,.bulim{text-decoration:none;padding:4px 18px}
 .oldingi,.keyingi,.blue,.bulim{background-color:#0095B6;color:#fff}
 /* Scollmenu */
 div.scollmenu {
