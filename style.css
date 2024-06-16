@@ -42,8 +42,7 @@ b.Versiya {
     font-size: 32px;
 }
 .blue {
-    background-color: #0095B6;
-    color: #fff;
+    
 }
 .mavzu {
     color: #0095B6;
@@ -58,7 +57,10 @@ b.Versiya {
 .oldingi{float:left!important}
 .keyingi {float:right!important}
 .oldingi,.keyingi{padding:4px 18px;}
-.oldingi,.keyingi,.blue
+.oldingi,.keyingi,.blue{
+    background-color: #0095B6;
+    color: #fff;
+}
 
 /* Scollmenu */
 div.scollmenu {
