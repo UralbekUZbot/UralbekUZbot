@@ -44,11 +44,11 @@ b.Versiya {
 .mavzu {
     color: #0095B6;
     font-family: Sans-Serif;
-    font-size: 32px;
+    
 }
 .col-sm-4{padding-top:8px;padding-bottom:8px}
 .oldingi{float:left!important}
-.keyingi {float:right!important}
+.keyingi{float:right!important}
 .oldingi,.keyingi{padding:4px 18px;}
 .oldingi,.keyingi,.blue{background-color:#0095B6;color:#fff}
 
