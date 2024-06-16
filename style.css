@@ -54,6 +54,12 @@ b.Versiya {
     padding-top: 8px;
     padding-bottom: 8px;
 }
+
+.oldingi {
+    float: left!important;
+}
+
+
 /* Scollmenu */
 div.scollmenu {
     background-color: #555;
