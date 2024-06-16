@@ -57,10 +57,8 @@ b.Versiya {
 
 .oldingi{float:left!important}
 .keyingi {float:right!important}
-.oldingi,.keyingi{
-    padding: 4px 18px;
-}
-
+.oldingi,.keyingi{padding:4px 18px;}
+.oldingi,.keyingi,.blue
 
 /* Scollmenu */
 div.scollmenu {
