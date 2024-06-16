@@ -58,7 +58,7 @@ b.Versiya {
 .oldingi{float:left!important}
 .keyingi {float:right!important}
 .oldingi,.keyingi{
-    
+    padding: 4px 18px;
 }
 
 
