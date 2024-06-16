@@ -39,7 +39,7 @@ b.Versiya {
 a.oldingi,.keyingi{text-decoration:none;padding:4px 18px}
 .oldingi,.keyingi,.blue{background-color:#0095B6;color:#fff}
 .bulim{
-    padd
+    padding-top: 8px;
 }
 /* Scollmenu */
 div.scollmenu {
