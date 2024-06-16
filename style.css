@@ -3,19 +3,8 @@ html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 body{background-color:#fff;margin:0}
 /* Muallif: Uralbek Tursunov */
-a.menyu {
-    text-decoration: none;
-    font-size: 25px;
-}
-.logotip {
-    font-size: 24px;
-    margin-left: 10px;
-    text-align: center!important;
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-}
+a.menyu{text-decoration:none;font-size:25px}
+.logotip{font-size:24px;margin-left:10px;text-align:center!important;font-family:"Oswald", sans-serif;font-optical-sizing:auto;font-weight:700;font-style:normal}
 .menyu,.logotip {
     color: #0095B6;
     font-weight: bold;
@@ -42,11 +31,12 @@ b.Versiya {
     color: #0095B6;
     font-family: Sans-Serif;
 }
+
 .mavzu,.xlarge{font-size:32px}
 .col-sm-4{padding-top:8px;padding-bottom:8px}
 .oldingi{float:left!important}
 .keyingi{float:right!important}
-.oldingi,.keyingi{padding:4px 18px;}
+a.oldingi,.keyingi{text-decoration:none;padding:4px 18px}
 .oldingi,.keyingi,.blue{background-color:#0095B6;color:#fff}
 
 /* Scollmenu */
