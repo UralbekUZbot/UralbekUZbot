@@ -33,7 +33,7 @@ b.Versiya {
 }
 
 .mavzu,.xlarge{font-size:32px}
-.col-sm-4,.bulim{padding-top:8px;padding-bottom:8px}
+.col-sm-4 .bulim{padding-top:8px;padding-bottom:8px}
 .oldingi{float:left!important}
 .keyingi{float:right!important}
 a.oldingi,.keyingi,.bulim{text-decoration:none;padding:4px 18px}
