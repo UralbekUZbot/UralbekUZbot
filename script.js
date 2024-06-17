@@ -1,1 +1,1 @@
-document.getElementById('tema').innerHTML
+document.getElementById('tema').innerHTML = "Hello world";
