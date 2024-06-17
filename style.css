@@ -7,7 +7,9 @@ a.a{text-decoration:none}
 .menyu{font-size:25px;}
 .left{float:left!important}
 .right{float:right!important}
-
+.logotip{
+    font-size:24px;
+}
 .logcolor{color:#0095B6}
 
 .logotip{font-size:24px;margin-left:10px;text-align:center!important;font-family:"Oswald", sans-serif;font-optical-sizing:auto;font-weight:700;font-style:normal}
