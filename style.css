@@ -4,14 +4,12 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 body{background-color:#fff;margin:0}
 /* Muallif: Uralbek Tursunov */
 a.a{text-decoration:none}
-.menyu{
-    font-size: ;
+.menyu{font-size:25px;
 }
 .left{float:left!important}
 .right{float:right!important}
 
 
-a.menyu{text-decoration:none;font-size:25px}
 .logotip{font-size:24px;margin-left:10px;text-align:center!important;font-family:"Oswald", sans-serif;font-optical-sizing:auto;font-weight:700;font-style:normal}
 .logo {
     padding-top: 7px;
