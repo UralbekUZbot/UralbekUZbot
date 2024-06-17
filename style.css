@@ -3,14 +3,9 @@ html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 body{background-color:#fff;margin:0}
 /* Muallif: Uralbek Tursunov */
-a.button {
+a.a {
     text-decoration: none;
-    padding: 4px 18px;
 }
-a.menyu {
-    
-}
-
 
 
 
