@@ -6,6 +6,9 @@ body{background-color:#fff;margin:0}
 a.a{text-decoration:none}
 .menyu{font-size:25px;}
 .left{float:left!important}
+.center{
+    float:center;
+}
 .right{float:right!important}
 .logotip{font-size:24px;margin-left:10px;font-family:"Oswald",sans-serif;font-optical-sizing:auto;font-weight:700;font-style:normal}
 .logcolor{color:#0095B6}
