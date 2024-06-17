@@ -6,7 +6,6 @@ body{background-color:#fff;margin:0}
 a.menyu{text-decoration:none;font-size:25px}
 .logotip{font-size:24px;margin-left:10px;text-align:center!important;font-family:"Oswald", sans-serif;font-optical-sizing:auto;font-weight:700;font-style:normal}
 .menyu,.logotip {
-    color: #0095B6;
     font-weight: bold;
 }
 .logo {
@@ -24,10 +23,7 @@ b.Versiya {
 .large {
     font-size: 24px;
 }
-.mavzu {
-    color: #0095B6;
-    font-family: Sans-Serif;
-}
+.mavzu{font-family:Sans-Serif}
 .mavzu,.logotip,.mavzu{color:#0095B6}
 a.w3-red a.soat{text-decoration:none}
 .mavzu,.xlarge{font-size:32px}
