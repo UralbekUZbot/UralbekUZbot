@@ -8,6 +8,7 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
     position: fixed;
     width: 100%;
     top: 0;
+    color: #00f;
     bottom: 0;
     float: right!important;
     z-index: 1;
