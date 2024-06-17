@@ -4,5 +4,7 @@ html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 /* CSS ID="DEMO" SELECTORS */
 #logotip {
+    margin-left: 10px;
+    font-size: 24px;
     
 }
