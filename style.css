@@ -3,6 +3,10 @@ html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Muallif: Uralbek Tursunov */
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 /* CSS ID="DEMO" SELECTORS */
+#logo {
+    padding-top: 7px;
+    
+}
 #logotip {
     margin-left: 10px;
     font-size: 24px;
