@@ -3,8 +3,9 @@ html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Muallif: Uralbek Tursunov */
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 /* CSS ID="DEMO" SELECTORS */
-#ub_top {
-    
+#top {
+    top: 0;
+    z-index: 1;
 }
 #logo {
     padding-top: 7px;
