@@ -25,6 +25,6 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
     color: #0095B6;
 }
 #demo {
-    display: inline;
+    display: inline-block;
     color: #f00;
 }
