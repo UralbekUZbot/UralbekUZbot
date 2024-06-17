@@ -5,7 +5,8 @@ body{
     margin:0;
     background-image: url('https://telegra.ph/file/fef639043ba9918f251fd.jpg');
     background-repeat: no-repeat;
-    
+    background-attachment: fixed;
+    background-size: cover;
 }
 /* Muallif: Uralbek Tursunov */
 a.a{text-decoration:none}
