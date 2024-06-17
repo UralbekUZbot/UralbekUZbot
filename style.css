@@ -16,7 +16,7 @@ a.menyu{text-decoration:none;font-size:25px}
 .footer-color {
     background-color: #282A45;
 }
-a.soat{font-size: 15px}
+a.soat{font-size:15px}
 b.Versiya {
     font-size: 12px;
     color: #fff;
@@ -28,8 +28,8 @@ b.Versiya {
     color: #0095B6;
     font-family: Sans-Serif;
 }
-a.w3-red a.soat{text-decoration:none;}
-
+.mav
+a.w3-red a.soat{text-decoration:none}
 .mavzu,.xlarge{font-size:32px}
 .col-sm-4,.bulim{padding-top:8px;padding-bottom:8px}
 .oldingi{float:left!important}
