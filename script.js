@@ -1,1 +1,1 @@
-document.getElementById('tema')
+document.getElementById('tema').innerHTML
