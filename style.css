@@ -5,7 +5,7 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 /* CSS ID="DEMO" SELECTORS */
 #logo {
     padding-top: 7px;
-    
+    padding-bottom: 3px;
 }
 #logotip {
     margin-left: 10px;
