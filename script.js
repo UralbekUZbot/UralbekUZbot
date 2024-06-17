@@ -4,7 +4,7 @@ xhttp.onreadystatechange = function() {
     myFunction(this);
     }
 };
-xhttp.open("GET", "note.xml", true);
+xhttp.open("GET", "https://UralbekUZbot.netlify.app/note.xml", true);
 xhttp.send();
 
 function myFunction(xml) {
