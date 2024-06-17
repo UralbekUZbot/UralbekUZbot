@@ -27,4 +27,4 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
     font-size: normal;
     color: #0095B6;
 }
-.w3-card,.w3-card-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+.card,.w3-card2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
