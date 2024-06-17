@@ -8,9 +8,7 @@ a.a{text-decoration:none}
 .left{float:left!important}
 .right{float:right!important}
 
-.logcolor{
-    color: ;
-}
+.logcolor{color:#0095B6}
 
 .logotip{font-size:24px;margin-left:10px;text-align:center!important;font-family:"Oswald", sans-serif;font-optical-sizing:auto;font-weight:700;font-style:normal}
 .logo {
