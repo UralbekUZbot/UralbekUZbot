@@ -7,6 +7,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    width: 100%;
 }
 /* Muallif: Uralbek Tursunov */
 a.a{text-decoration:none}
