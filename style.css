@@ -13,6 +13,7 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 #logo {
     padding-top: 6px;
     padding-bottom: 5px;
+    padding: 5px;
 }
 #logotip {
     margin-left: 10px;
