@@ -12,3 +12,7 @@ function myFunction(xml) {
     document.getElementById("demo").innerHTML =
     xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
 }
+
+
+// gggg
+document.getElementById("demo1").innerHTML = "Hello World!";
