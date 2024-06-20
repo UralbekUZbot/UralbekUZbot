@@ -12,5 +12,6 @@ body{background-color:#fff}
 }
 #header {
     margin-left: 16px;
-    
+    padding-top: 7px;
+    padding-bottom: 3px;
 }
