@@ -14,4 +14,7 @@ body{background-color:#fff}
     margin-left: 16px;
     padding-top: 7px;
     padding-bottom: 4px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
