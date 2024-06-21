@@ -24,6 +24,7 @@ body {
     font-size: 25px;
 }
 #logotip {
+    padding-left: 4px;
     font-size: 24px;
 }
 #menyu,#logotip {
