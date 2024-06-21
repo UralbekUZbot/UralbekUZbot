@@ -27,7 +27,7 @@ body {
 }
 #menyu,#logotip {
     color: #0095B6;
-    text-shadow: 1px 0.5px #000000;
+    text-shadow: 0.5px 1px #000000;
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
