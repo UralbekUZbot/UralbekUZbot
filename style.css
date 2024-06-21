@@ -26,4 +26,6 @@ body {
 #logotip {
     font-size: 24px;
 }
-#menyu,#
+#menyu,#logotip {
+    color: #0095B6;
+}
