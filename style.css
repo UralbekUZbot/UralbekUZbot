@@ -63,5 +63,6 @@ div.menyu {
     z-index: 1;
     width: 120px;
     height: 120px;
-    margin: -76px ;
+    margin: -76px 0 0 -76px;
+    border: 12px solid #00;
 }
