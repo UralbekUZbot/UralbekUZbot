@@ -58,4 +58,6 @@ div.menyu {
 
 
 /* color */
-.footer-color 
+.footer-color {
+    background-color: #282A45;
+}
