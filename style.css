@@ -18,6 +18,8 @@ a{text-decoration:none}
 }
 #logo {
     image-rendering: url("https://telegra.ph/file/b517768ac1cad55e6cd60.jpg");
+    width: 20px;
+    height: 20px;
 }
 #logotip {
     font-family: "Oswald";
