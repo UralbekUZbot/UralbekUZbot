@@ -63,7 +63,7 @@ div.menyu {
     z-index: 1;
     width: 200px;
     height: 200px;
-    
+    text-align: center!important;
     border: 5px solid #fff;
     border-radius: 50%;
     border-top: 5px solid #0095B6;
