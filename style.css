@@ -58,8 +58,8 @@ div.menyu {
 /* Loading */
 #loader {
     position: absolute;
-    left: 500;
-    top: 500;
+    left: 250;
+    top: 250;
     z-index: 1;
     width: 200px;
     height: 200px;
