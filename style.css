@@ -58,7 +58,7 @@ div.menyu {
 /* Loading */
 #loader {
     position: absolute;
-    display: inline;
+    display: inline-block;
     left: 500;
     top: 500;
     z-index: 1;
