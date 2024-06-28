@@ -27,14 +27,15 @@ a{text-decoration:none}
     color: #0095B6;
     text-shadow: 0.5px 0.7px #000000;
 }
-
+#oldingi {
+    float: left!important;
+}
 #keyingi {
-    padding: ;
+    float: right!important;
 }
 #oldingi,#keyingi {
     padding: 2px 12px;
     background-color: #0095B6;
-    
 }
 
 /* Scollmenu */
