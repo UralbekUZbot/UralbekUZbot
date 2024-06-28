@@ -18,12 +18,17 @@ a{text-decoration:none}
     margin-left: 14px;
 }
 #logo {
-    
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 .logo {
     border-radius: 50%;
     padding-top: 8px;
     padding: 5px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 #logotip {
     font-family: "Oswald";
