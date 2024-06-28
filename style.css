@@ -45,7 +45,7 @@ div.scollmenu a {
 div.scollmenu a:hover {
     background-color: #aaa;
 }
-
+/* Menyu */
 div.menyu {
     position: fixed;
     top: 50.5px;
@@ -55,3 +55,4 @@ div.menyu {
     color: #fff;
     font-size: 14px;
 }
+/* L
