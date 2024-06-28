@@ -67,5 +67,6 @@ div.menyu {
     border: 12px solid #fff;
     border-radius: 50%;
     border-top: 16px solid #0095B6;
-    
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
 }
