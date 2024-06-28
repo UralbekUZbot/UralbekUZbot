@@ -41,7 +41,7 @@ div.scollmenu {
 div.scollmenu a {
     display: inline-block;
     color: #fff;
-    font-size: 14.5px;
+    font-size: 13px;
     text-align: center;
     padding: 2px 14px;
     text-decoration: none;
@@ -52,9 +52,9 @@ div.scollmenu a:hover {
 
 div.menyu {
     position: fixed;
-    top: 50px;
+    top: 50.5px;
     left: 0;
-    padding: 1.8px 12px;
+    padding: 2px 12px;
     background-color: #555;
     color: #fff;
     font-size: 13px;
