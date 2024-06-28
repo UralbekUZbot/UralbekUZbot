@@ -49,3 +49,8 @@ div.scollmenu a {
 div.scollmenu a:hover {
     background-color: #aaa;
 }
+
+div.menyu {
+    position: fixed;
+    
+}
