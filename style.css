@@ -41,7 +41,7 @@ div.scollmenu {
 div.scollmenu a {
     display: inline-block;
     color: #fff;
-    font-size: 13px;
+    font-size: 14.5px;
     text-align: center;
     padding: 2px 14px;
     text-decoration: none;
@@ -57,5 +57,5 @@ div.menyu {
     padding: 2px 12px;
     background-color: #555;
     color: #fff;
-    font-size: 13px;
+    font-size: 14px;
 }
