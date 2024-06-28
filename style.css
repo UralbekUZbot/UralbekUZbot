@@ -27,12 +27,14 @@ a{text-decoration:none}
     color: #0095B6;
     text-shadow: 0.5px 0.7px #000000;
 }
-#oldingi {
+#oldingi, {
     padding: 2px 12px;
     background-color: #0095B6;
     float: left!important;
 }
-#keyingi
+#keyingi {
+    padding: ;
+}
 
 /* Scollmenu */
 div.scollmenu {
