@@ -1,3 +1,4 @@
+//Mah
 function startTime() {
     const today = new Date();
     let h = today.getHours();
