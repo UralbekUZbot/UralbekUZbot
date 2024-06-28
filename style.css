@@ -54,7 +54,7 @@ div.menyu {
     position: fixed;
     top: 36px;
     left: 0;
-    padding: 5px;
+    padding: 2px 12px;
     background-color: #555;
     color: #fff;
     font-size: 13px;
