@@ -17,14 +17,14 @@ a{text-decoration:none}
 #header {
     padding-left: 18px;
     padding-top: 8px;
-    padding-bottom: 3px;
+    padding-bottom: 5px;
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
 }
 #logotip {
     font-family: "Oswald";
-    font-size: 24px;
+    font-size: 25px;
 }
 #logo,#logotip {
     color: #0095B6;
