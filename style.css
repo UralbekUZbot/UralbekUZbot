@@ -26,8 +26,11 @@ a{text-decoration:none}
 #logo,#logotip {
     color: #0095B6;
     text-shadow: 0.5px 0.7px #000000;
-    
 }
+#oldingi {
+    p
+}
+
 /* Scollmenu */
 div.scollmenu {
     background-color: #555;
