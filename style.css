@@ -55,4 +55,7 @@ div.menyu {
     color: #fff;
     font-size: 14px;
 }
-/* L
+/* Loading */
+#loader {
+    position: absolute;
+}
