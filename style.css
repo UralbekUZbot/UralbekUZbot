@@ -13,7 +13,6 @@ a{text-decoration:none}
 }
 #header {
     margin-left: 12px;
-    padding-top: 7px;
     padding-bottom: 3px;
 }
 #logo {
@@ -21,10 +20,11 @@ a{text-decoration:none}
     padding-bottom: 10px;
 }
 .log {
-    border-radius: 50;
+    border-radius: 50%;
 }
 #logotip {
     font-family: "Oswald";
+    padding-top: 7px;
     padding-left: 6px;
     font-size: 24px;
 }
