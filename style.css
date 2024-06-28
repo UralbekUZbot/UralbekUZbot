@@ -29,8 +29,10 @@ a{text-decoration:none}
 }
 #oldingi {
     padding: 2px 12px;
-    
+    background-color: #0095B6;
+    float: left!important;
 }
+#keyingi
 
 /* Scollmenu */
 div.scollmenu {
