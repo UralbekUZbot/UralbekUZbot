@@ -20,12 +20,7 @@ a{text-decoration:none}
     -ms-user-select: none;
     user-select: none;
 }
-#logo {
-    padding-top: 14px;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
+
 .logo {
     border-radius: 50%;
     padding-top: 14px;
