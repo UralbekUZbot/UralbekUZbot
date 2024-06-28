@@ -18,8 +18,8 @@ a{text-decoration:none}
 }
 #logo {
     border-radius: 50%;
-    padding-left: ;
-    padding-bottom: ;
+    padding-left: 6px;
+    padding-bottom: 6px;
 }
 #logotip {
     font-family: "Oswald";
