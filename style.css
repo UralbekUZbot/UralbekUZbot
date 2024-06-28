@@ -79,6 +79,7 @@ div.menyu {
 }
 .animate-bottom {
   position: relative;
+  text-align: center;
   -webkit-animation-name: animatebottom;
   -webkit-animation-duration: 1s;
   animation-name: animatebottom;
