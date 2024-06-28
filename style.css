@@ -52,5 +52,7 @@ div.scollmenu a:hover {
 
 div.menyu {
     position: fixed;
-    
+    top: 14px;
+    left: 0;
+    padding: 5px;
 }
