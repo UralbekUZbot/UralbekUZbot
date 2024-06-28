@@ -20,15 +20,6 @@ a{text-decoration:none}
     -ms-user-select: none;
     user-select: none;
 }
-
-.logo {
-    border-radius: 50%;
-    padding-top: 14px;
-    padding: 8px;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
 #logotip {
     font-family: "Oswald";
     font-size: 24px;
