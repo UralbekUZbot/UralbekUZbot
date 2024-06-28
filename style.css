@@ -10,9 +10,6 @@ a{text-decoration:none}
     top: 0;
     background-color: #fff;
     box-shadow:0 4px 4px 0 rgba(0,0,0,0.12),0 4px 4px 0 rgba(0,0,0,0.20)
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 #header {
     padding-left: 18px;
