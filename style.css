@@ -37,7 +37,8 @@ a{text-decoration:none}
 #logotip {
     font-family: "Oswald";
     font-size: 24px;
-    
+    margin-top: 18px;
+    padding-top: 18px;
 }
 #logo,#logotip {
     color: #0095B6;
