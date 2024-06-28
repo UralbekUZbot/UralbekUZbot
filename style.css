@@ -61,8 +61,8 @@ div.menyu {
     left: 500;
     top: 500;
     z-index: 1;
-    width: 50%;
-    height: 50%;
+    width: 200px;
+    height: 200px;
     margin: -76px 0 0 -76px;
     border: 12px solid #fff;
     border-radius: 50%;
