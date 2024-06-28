@@ -17,7 +17,9 @@ a{text-decoration:none}
     padding-bottom: 3px;
 }
 #logo {
-    
+    border-radius: 50%;
+    padding-left: ;
+    padding-bottom: ;
 }
 #logotip {
     font-family: "Oswald";
