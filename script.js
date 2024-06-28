@@ -1,3 +1,16 @@
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+
+
+
+
+
+
+
 function startTime() {
     const today = new Date();
     let h = today.getHours();
