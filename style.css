@@ -17,9 +17,9 @@ a{text-decoration:none}
     padding-bottom: 3px;
 }
 #logo {
-    image-rendering: url("https://telegra.ph/file/b517768ac1cad55e6cd60.jpg");
     width: 20px;
     height: 20px;
+    border-radius: 50%;
 }
 #logotip {
     font-family: "Oswald";
