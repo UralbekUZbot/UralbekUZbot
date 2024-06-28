@@ -55,4 +55,6 @@ div.menyu {
     top: 14px;
     left: 0;
     padding: 5px;
+    background-color: #555;
+    color: #fff;
 }
