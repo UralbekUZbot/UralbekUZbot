@@ -16,7 +16,7 @@ a{text-decoration:none}
     padding-top: 7px;
     padding-bottom: 3px;
 }
-#menyu {
+#logo {
     font-size: 25px;
 }
 #logotip {
@@ -24,7 +24,7 @@ a{text-decoration:none}
     padding-left: 6px;
     font-size: 24px;
 }
-#menyu,#logotip {
+#logo,#logotip {
     color: #0095B6;
     text-shadow: 0.5px 0.7px #000000;
     -webkit-user-select: none;
