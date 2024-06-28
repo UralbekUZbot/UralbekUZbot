@@ -61,5 +61,7 @@ div.menyu {
     left: 500;
     top: 500;
     z-index: 1;
+    width: 120px;
+    height: 120px;
     
 }
