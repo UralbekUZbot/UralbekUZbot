@@ -11,10 +11,7 @@ a{text-decoration:none}
     background-color: #fff;
     box-shadow:0 4px 4px 0 rgba(0,0,0,0.12),0 4px 4px 0 rgba(0,0,0,0.20)
 }
-#header {
-    padding-left: 24px;
-    padding-top: 5px;
-    padding-bottom: 4.5px;-webkit-user-select:none;-ms-user-select:none;user-select:none}
+#header{padding-left:24px;padding-top:5px;padding-bottom:4.5px;-webkit-user-select:none;-ms-user-select:none;user-select:none}
 #logotip{font-family:"Oswald";font-size:26px}
 #logo,#logotip{color: #0095B6;text-shadow:0.5px 0.7px #000000}
 
