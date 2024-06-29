@@ -10,7 +10,7 @@ xhttp.send();
 function myFunction(xml) {
     var xmlDoc = xml.responseXML;
     document.getElementById("marquee").innerHTML =
-    xmlDoc.getElementsByTagName("title","valyuta")[0].childNodes[0].nodeValue;
+    xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
 }
 
 function myFunction(xml) {
