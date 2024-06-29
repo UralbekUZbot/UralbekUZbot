@@ -14,8 +14,7 @@ a{text-decoration:none}
 
 /* Scollmenu */
 div.scollmenu{background-color: #555;overflow:auto;white-space:nowrap}
-div.scollmenu a{display:inline-block;color:#fff;font-size:14px;text-align:center;padding:2px 14px;text-decoration:none;
-}
+div.scollmenu a{display:inline-block;color:#fff;font-size:14px;text-align:center;padding:2px 14px;text-decoration:none}
 div.scollmenu a:hover {
     background-color: #aaa;
 }
