@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <marquee>
-    <title>
-        Ushbu sayt test rejimida ishlamoqda
-    </title>
+    <title>Ushbu sayt test rejimida ishlamoqda...</title>
+    <valyuta>
+        USD
+    </valyuta>
 </marquee>
