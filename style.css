@@ -19,14 +19,9 @@ a{text-decoration:none}
     -ms-user-select: none;
     user-select: none;
 }
-#logotip {
-    font-family: "Oswald";
-    font-size: 26px;
-}
-#logo,#logotip {
-    color: #0095B6;
-    text-shadow: 0.5px 0.7px #000000;
-}
+#logotip {font-family:"Oswald";font-size:26px}
+#logo,#logotip{color: #0095B6;text-shadow:0.5px 0.7px #000000}
+
 #oldingi{float:left!important}
 #keyingi{float:right!important}
 #oldingi,#keyingi{padding:2px 16px;background-color:#0095B6;color:#fff}
