@@ -29,10 +29,7 @@ a{text-decoration:none}
 }
 #oldingi{float:left!important}
 #keyingi{float:right!important}
-#oldingi,#keyingi{padding:2px 16px;
-    background-color: #0095B6;
-    color: #fff;
-}
+#oldingi,#keyingi{padding:2px 16px;background-color:#0095B6;color:#fff}
 
 /* Scollmenu */
 div.scollmenu {
