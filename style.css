@@ -17,9 +17,7 @@ div.scollmenu{background-color: #555;overflow:auto;white-space:nowrap}
 div.scollmenu a{display:inline-block;color:#fff;font-size:14px;text-align:center;padding:2px 14px;text-decoration:none}
 div.scollmenu a:hover{background-color:#aaa}
 /* Menyu */
-div.menyu{position:fixed;top:48.7px;left:0;padding:2px 12px;background-color:#555;color: #fff;
-    font-size: 14px;
-}
+div.menyu{position:fixed;top:48.7px;left:0;padding:2px 12px;background-color:#555;color:#fff;font-size:14px}
 
 
 /* color */
