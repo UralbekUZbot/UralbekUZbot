@@ -16,5 +16,5 @@ function myFunction(xml) {
 function myFunction(xml) {
     var xmlDoc = xml.responseXML;
     document.getElementById("marquee-valyuta").innerHTML =
-    xmlDoc.getElementsByTagName("valyuta")[1].childNodes[0].nodeValue;
+    xmlDoc.getElementsByTagName("valyuta")[1].childNodes[1].nodeValue;
 }
