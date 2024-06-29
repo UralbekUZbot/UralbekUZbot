@@ -9,6 +9,6 @@ xhttp.send();
 
 function myFunction(xml) {
     var xmlDoc = xml.responseXML;
-    document.getElementById("demo").innerHTML =
+    document.getElementById("marquee").innerHTML =
     xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
 }
