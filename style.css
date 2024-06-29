@@ -21,10 +21,7 @@ div.menyu{position:fixed;top:48.7px;left:0;padding:2px 12px;background-color:#55
 
 
 /* color */
-.header-color {
-    background-color: #0095B6;
-    color: #fff;
-}
+.header-color{background-color:#0095B6;color:#fff}
 .footer-color {
     background-color: #282A45;
 }
