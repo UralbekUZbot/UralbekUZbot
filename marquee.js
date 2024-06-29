@@ -4,7 +4,7 @@ xhttp.onreadystatechange = function() {
         myFunction(this);
     }
 };
-xhttp.open("GET", "marquee.xml", true);
+xhttp.open("GET", "https://UralbekUZbot.netlify.app/marquee.xml", true);
 xhttp.send();
 
 function myFunction(xml) {
