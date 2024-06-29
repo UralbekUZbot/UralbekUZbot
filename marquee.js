@@ -10,11 +10,11 @@ xhttp.send();
 function myFunction(xml) {
     var xmlDoc = xml.responseXML;
     document.getElementById("marquee").innerHTML =
-    xmlDoc.getElementsByTagName("title","valyuta")[0].childNodes[0].nodeValue;
+    xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
 }
 
 function myFunction(xml) {
     var xmlDoc = xml.responseXML;
     document.getElementById("marquee-valyuta").innerHTML =
-    xmlDoc.getElementsByTagName("valyuta")[0].childNodes[0].nodeValue;
+    xmlDoc.getElementsByTagName("valyuta")[1].childNodes[0].nodeValue;
 }
