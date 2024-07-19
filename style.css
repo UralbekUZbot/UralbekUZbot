@@ -5,8 +5,7 @@ body{background-color:#fff}
 a{text-decoration:none}
 #ub-top{position:fixed;width:100%;z-index:1;top:0;background-color:#fff;box-shadow:0 4px 4px 0 rgba(0,0,0,0.12),0 4px 4px 0 rgba(0,0,0,0.20)}
 #header{padding-left:24px;padding-top:5px;padding-bottom:5px;-webkit-user-select:none;-ms-user-select:none;user-select:none}
-#logotip{font-family:"Oswald";font-size:26px}
-#logotip{color: #0095B6;text-shadow:0.5px 0.7px #000000}
+#logotip{font-family:"Oswald";font-size:26px;color: #0095B6;text-shadow:0.5px 0.7px #000}
 /* oldingi keyingi */
 #oldingi{float:left!important;border-radius:50px 0 0 50px}
 #keyingi{float:right!important;border-radius:0 50px 50px 0}
