@@ -1,0 +1,25 @@
+/* Uralbek Tursunov • uralbek.uz • v1.0.0 (200624) */
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+body{background-color:#fff}
+a{text-decoration:none}
+#ub-top{position:fixed;width:100%;z-index:1;top:0;background-color:#fff;box-shadow:0 4px 4px 0 rgba(0,0,0,0.12),0 4px 4px 0 rgba(0,0,0,0.20)}
+#header{padding-left:24px;padding-top:5px;padding-bottom:5px;-webkit-user-select:none;-ms-user-select:none;user-select:none}
+#logotip{font-family:"Oswald";font-size:26px}
+#logo,#logotip{color: #0095B6;text-shadow:0.5px 0.7px #000000}
+/* oldingi keyingi */
+#oldingi{float:left!important;border-radius:50px 0 0 50px}
+#keyingi{float:right!important;border-radius:0 50px 50px 0}
+#oldingi,#keyingi{padding:2px 16px;background-color:#0095B6;color:#fff}
+
+/* Scollmenu */
+div.scollmenu{background-color: #555;overflow:auto;white-space:nowrap}
+div.scollmenu a{display:inline-block;color:#fff;font-size:14px;text-align:center;padding:2px 14px;text-decoration:none}
+div.scollmenu a:hover{background-color:#aaa}
+/* Menyu */
+div.menyu{position:fixed;top:48.7px;left:0;padding:2px 12px;background-color:#555;color:#fff;font-size:14px}
+
+
+/* color */
+.header-color{background-color:#0095B6;color:#fff}
+.footer-color{background-color:#282A45}
