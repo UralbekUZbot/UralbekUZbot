@@ -41,4 +41,19 @@ music.pause();
  music.src = "new url";
  music.load();
  music.play();
+ 
+//playing flag 
+var musicTracker = 'noMusic';
+//playlist audios
+var audios = [];
+ $(".song").each(function(){
+        var load = new  Audio($(this).attr("url"));
+    load.load();
+    load.addEventListener('ended',function(){
+       forward();
+    });
+    audios.push(load);
+ });
+//active track
+var activeTrack = 0;
 </script>
