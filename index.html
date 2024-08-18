@@ -1,8 +1,19 @@
 <!DOCTYPE html>
-<html>
-<body>
-    
+<html>  
+<head><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script></head>
+<body>       
+<audio id="player" autoplay controls><source src="0.mp3" type="audio/mp3"></audio>
 </body>
+<script>
+    var x = 0;
+    var music = document.getElementById("player");
+    $("#player").bind("ended", function(){
+    x=x+1;
+    music.src = x%4 + ".mp3";
+    music.load();
+    music.play();       
+    });
+    </script>
 </html>
 
 <script>
