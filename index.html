@@ -56,4 +56,11 @@ var audios = [];
  });
 //active track
 var activeTrack = 0;
+
+var showPlaying = function()
+{
+    var src = audios[activeTrack].src;
+   $(".song").removeClass("playing");
+   $("div[url='" + src + "']").addClass("playing");
+};
 </script>
