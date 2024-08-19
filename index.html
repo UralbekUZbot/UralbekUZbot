@@ -14,5 +14,27 @@
 <div class="btn" name="Music/Fear and Loathing in Las Vegas - Short but Seems Long time of our Life Lyrics.mp3"></div><br>
 <div class="btn" name="Music/My First Story - Calling You.mp3"></div><br>
 <div class="btn" name="Music/My First Story - Bullet Radio.mp3"></div>
-
 </html>
+
+<script>
+    // my codes is not JQuery but Pure JavaScript.
+
+var btn = document.getElementsByClassName('btn');
+
+for(i=0; i < btn.length; i++){
+
+    btn[i].addEventListener('click', function(v){
+        $('audio').src = v.target.getAttribute('name');
+        $('audio').play();
+    }, false);
+
+    //Above codes is not problem but bottom for auto to change next song after ended
+
+    btn[i].index = i;
+
+    $('audio').addEventListener('ended', function(){
+        $('audio').src = btn[this.index+1].getAttribute('name');
+        $('audio').play();
+    }, false);
+}
+</script>
