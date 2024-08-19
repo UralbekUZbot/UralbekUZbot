@@ -4,15 +4,6 @@
 <body>       
 <audio id="player" autoplay controls><source src="https://dsstuz.netlify.app/Umida_Mirhamidova_-_Muzliklar.mp3"></audio>
 </body>
-<script>
-    var x = 0;
-    var music = document.getElementById("player");
-    $("#player").bind("ended", function(){
-    x=x+1;
-    music.src = x%4 + ".mp3";
-    music.load();
-    music.play();       
-    });
-    </script>
+
 </html>
 
